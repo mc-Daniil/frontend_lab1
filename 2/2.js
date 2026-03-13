@@ -10,6 +10,9 @@ do {
     }
 
     num = Number(input);
+
+    if (!Number.isInteger(num)-
+
     if (isNaN(num)) {
         alert("Это не число!");
     }

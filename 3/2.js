@@ -21,7 +21,9 @@ do {
     }
 
     let res = [];
-    nums.forEach(function(item) {res.push(item % 5)});
+    nums.map(function(item, index) {return item % 5});
+
+    
 
     alert(res.join(" "));
 

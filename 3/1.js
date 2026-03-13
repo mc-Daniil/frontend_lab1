@@ -15,7 +15,7 @@ do {
         }
     }
 
-    nums.sort(function comp(a, b) {return a - b});
+    nums.sort(function comp(a, b) {return b - a});
 
     if (nums.length === 0) {
         alert("Нет натуралов");
